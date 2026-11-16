@@ -1,0 +1,30 @@
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Large raw datasets (keeps sampleaudio/alto.m4a tracked while ignoring bulk folders)
+data/
+dataset/
+datasets/
+raw_audio/
+*.zip
+*.tar.gz
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+weights/
